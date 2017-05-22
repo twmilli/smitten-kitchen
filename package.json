@@ -1,0 +1,39 @@
+{
+  "name": "smitten_app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "src/assets/fonts"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "16.0.0-alpha.6",
+    "react-addons-pure-render-mixin": "15.5.0",
+    "react-native": "0.43.4",
+    "react-native-communications": "^2.2.1",
+    "react-native-global-props": "^1.1.1",
+    "react-native-router-flux": "3.38.0",
+    "react-native-search-box": "0.0.8",
+    "react-native-vector-icons": "^4.0.1",
+    "react-redux": "^5.0.4",
+    "react-static-container": "^1.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

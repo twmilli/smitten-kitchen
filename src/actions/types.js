@@ -1,0 +1,9 @@
+export const SEARCH_SUCCESS = 'search_success';
+export const GET_RECIPES = 'get_recipes';
+export const RESET_RECIPES = 'reset_recipes';
+export const SEARCH_FAIL = 'search_fail';
+export const SELECT_RECIPE = 'select_recipe';
+export const ADD_BOOKMARK = 'add_bookmark';
+export const LOAD_BOOKMARK_SUCCESS = 'load_bookmark_success';
+export const REMOVE_BOOKMARK = 'remove_bookmark';
+export const CACHE_RECENT_IMG = 'cache_recent_img';
